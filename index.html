@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Skipper Gallery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    html {
+      font-size: 10px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      text-align: center;
+      color: #9e4343;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 460px) {
+      h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+      }
+    }
+
+    h2 {
+      font-size: 3.25rem;
+    }
+
+    a {
+      color: #477ca7;
+    }
+
+    a:visited {
+      color: #74638f;
+    }
+
+    #main {
+      margin: 30px 8px;
+      padding: 15px;
+      border-radius: 5px;
+      background: #e7e6e6;
+    }
+
+    @media (max-width: 460px) {
+      #main {
+        margin: 0;
+      }
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #img-div {
+      background: white;
+      padding: 10px;
+      margin: 0;
+    }
+
+    #text-container {
+      margin-top: 5px;
+      width: 40%;
+      padding: 20px;
+      text-align: justify;
+      line-height: 1.5;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #text-box {
+      margin-top: 5px;
+      width: 40%;
+      padding: 20px;
+      text-align: justify;
+      line-height: 1.5;
+      margin-left: 740px;
+      margin-right: auto;
+    }
+
+    #img-caption {
+      margin: 15px 0 5px 0;
+    }
+
+    @media (max-width: 460px) {
+      #img-caption {
+        font-size: 1.4rem;
+      }
+    }
+
+    #headline {
+      margin: 50px 0;
+      text-align: center;
+      margin-bottom: 2px;
+    }
+
+    ul {
+      max-width: 550px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    li {
+      margin: 16px 0;
+    }
+
+    blockquote {
+      font-style: italic;
+      max-width: 545px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+    }
+
+    h2, h3 {
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+
+    /* Image gallery */
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .image-container {
+      flex: 0 0 45%; /* Each image takes up 45% of the container width */
+      margin: 25px;
+    }
+
+    .image-container img {
+      width: 96%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .social-links {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    gap: 30px; /* Adds space between the icons */
+    margin-top: 20px;
+  }
+
+  .social-links a {
+    font-size: 2rem; /* Adjust size of icons */
+    color: #9e4343; /* Set the color of the icons */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth hover transition */
+  }
+
+  .social-links a:hover {
+    color: #477ca7; /* Change color on hover */
+  }
+
+  </style>
+</head>
+<body>
+
+  <main id="main">
+    <h1 id="title">THE SKIPPER GALLERY</h1>
+    <p style="font-family: 'Lobster', cursive;"><i>--Creating art through memories--</i></p>    
+
+    <figure id="img-div">
+      <img
+        id="image"
+        src="Your paragraph text(1).png"
+        alt="Dr. Norman Borlaug seen standing in Mexican wheat field with a group of biologists"
+      />
+      <figcaption style="font-family: 'Lobster', cursive;"> 
+        <i>--Capturing Life, One Edit At A Time--</i>
+      </figcaption>
+    </figure>
+
+    <section>
+      <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Who is The Skipper?</h2>
+      <h3 id="headline"><u>Background</u></h3>
+      <p id="text-container">
+        The Skipper was born in a county called Bomet, and by the age of 2 years, he moved to a county called Kericho to live with his family in a tea company. 
+        He spent his primary and secondary school years in Kericho. He knew he was special by the way he could find inspiration in things that no one else could see.
+        Later he went to university in Nairobi, where he found his true identity and started to use his gift in creating art through memories.
+      </p>
+
+      <h3 id="headline"><u>Why The Skipper</u></h3>
+      <p id="text-container">
+        <i>'I look at my life as a boat cruising in the ocean, there is no real destination but there is a journey. I believe that every boat in the ship has a commander, and the commander for my boat is me. That is why I choose to go with the skipper.'</i>
+      </p>
+
+      <h3 id="headline"><u>Challenges and obstacles</u></h3>
+      <p id="text-container">
+        The skipper narrates the various issues he faced in creating his dream, such as a lack of self-motivation, lack of approval from people around him, lack of finances to better his equipment, and a lack of a competent environment. Throughout these challenges, the skipper is still able to work on building his empire and his dream.
+        <i>'I always like things to be perfect, but now as I grow older I realize that perfection is the enemy of progress.'</i>
+      </p>
+
+      <h3 id="headline"><u>Projects</u></h3>
+      <p id="text-container">
+        The Skipper has been doing graphical arts for more than a year now, and without wasting your time, here are the types of work the skipper has put into this work.
+      </p>
+
+      <div class="image-gallery">
+        <div class="image-container">
+          <img src="skipper 1.jpg" alt="Image 1">
+          <figcaption style="font-family: 'Lobster', cursive;"> 
+            <i>-- Volume Four of creating art through memories --</i>
+          </figcaption>
+        </div>
+        <div class="image-container">
+          <img src="skipper 2.jpg" alt="Image 2">
+          <figcaption style="font-family: 'Lobster', cursive;"> 
+            <i>-- Volume Three of creating art through memories --</i>
+          </figcaption>
+        </div>
+        <div class="image-container">
+          <img src="skipper 3.jpg" alt="Image 3">
+          <figcaption style="font-family: 'Lobster', cursive;"> 
+            <i>-- Volume Two of creating art through memories --</i>
+          </figcaption>
+        </div>
+        <div class="image-container">
+          <img src="Skipper 4.jpg" alt="Image 4">
+          <figcaption style="font-family: 'Lobster', cursive;"> 
+            <i>-- Volume One of creating art through memories --</i>
+          </figcaption>
+        </div>
+      </div>
+
+      <blockquote id="text-box">
+        <p>"Its all about the journey not the destination."</p>
+      </blockquote>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/theskippergallery/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/254799203089" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.youtube.com/channel/UCbUfhFnik6xDxUk9mED2vtQ" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>
